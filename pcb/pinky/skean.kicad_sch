@@ -4561,6 +4561,21 @@
     (pin "2" (uuid 9b011b01-5dfd-444f-be81-472db8d00869))
   )
 
+  (symbol (lib_id "Keyboard_Components:KEYSW") (at 62.23 97.79 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid bc531e3f-fe79-4957-a649-1376b3436c93)
+    (property "Reference" "K1" (id 0) (at 62.23 91.44 0))
+    (property "Value" "KEYSW" (id 1) (at 62.23 93.98 0))
+    (property "Footprint" "kbd:MX-Alps-1U-REV" (id 2) (at 62.23 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 62.23 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0b058969-b4bc-4ad6-86e0-c46a0ab0a007))
+    (pin "2" (uuid 030cd403-d87d-42f6-bd56-ff9eb371686e))
+  )
+
   (symbol (lib_id "Connector:Conn_01x02_Female") (at 262.89 86.995 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c376344d-3f87-44f7-ad86-714ee8048845)
@@ -5205,6 +5220,9 @@
     )
     (path "/c376344d-3f87-44f7-ad86-714ee8048845"
       (reference "J4") (unit 1) (value "Conn_01x02_Female") (footprint "kbd:Battery_TH")
+    )
+    (path "/bc531e3f-fe79-4957-a649-1376b3436c93"
+      (reference "K1") (unit 1) (value "KEYSW") (footprint "kbd:MX-Alps-1U-REV")
     )
     (path "/ca0b9cf6-1ae9-4c0a-9012-8b74ea50e4d2"
       (reference "K2") (unit 1) (value "KEYSW") (footprint "kbd:MX-Alps-1U-REV")
